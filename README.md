@@ -1,27 +1,8 @@
-# REACTTODO
+# React + Vite
 
-This is a simple React-based To-Do List application created using Vite. The application allows users to add, delete, mark tasks as completed, and edit existing tasks. It features a clean and user-friendly interface.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Features
+Currently, two official plugins are available:
 
-Add new tasks to the list.
-
-Mark tasks as completed with a checkbox.
-
-Remove the completion status of tasks by toggling the checkbox.
-
-Delete tasks from the list.
-
-Edit existing tasks.
-
-
-
-Instructions to Run
-
-Navigate to the project directory where you cloned the repository.
-
-Run npm install to install the required dependencies.
-
-Start the development server with npm run dev.
-
-Open the URL provided in the terminal (typically http://localhost:5173) to view the application.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
